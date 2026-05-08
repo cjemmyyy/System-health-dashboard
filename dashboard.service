@@ -3,7 +3,7 @@ Description=System Health Dashboard
 
 [Service]
 Type=oneshot
-User=vboxuser
-ExecStart=/bin/bash /home/vboxuser/dashboard.sh
-StandardOutput=append:/home/vboxuser/dashboard.log
-StandardError=append:/home/vboxuser/dashboard.log
+User=yourusername
+ExecStart=/bin/bash /home/yourusername/dashboard.sh
+StandardOutput=append:/home/yourusername/dashboard.log
+StandardError=append:/home/yourusername/dashboard.log
